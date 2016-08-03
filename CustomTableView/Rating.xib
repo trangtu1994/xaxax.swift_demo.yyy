@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Rating" customModule="CustomTableView" customModuleProvider="target">
+            <connections>
+                <outlet property="fStar" destination="Df6-sW-mI6" id="rOA-cK-TBR"/>
+                <outlet property="fiStar" destination="i9B-vN-KBP" id="w64-7v-UYk"/>
+                <outlet property="foStar" destination="0hT-0e-CRb" id="qKq-CU-Ldl"/>
+                <outlet property="sStart" destination="yHX-eD-mk5" id="xJs-MN-14R"/>
+                <outlet property="tStar" destination="1cT-NY-yO6" id="Uqk-jf-GGL"/>
+                <outlet property="view" destination="iN0-l3-epB" id="piW-cK-sFu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="308"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="yHX-eD-mk5">
+                    <rect key="frame" x="40" y="10" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="beE-6o-B53"/>
+                        <constraint firstAttribute="height" constant="30" id="uhO-7M-FbE"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="1cT-NY-yO6">
+                    <rect key="frame" x="75" y="10" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="T6W-6L-Gxl"/>
+                        <constraint firstAttribute="width" constant="30" id="abB-T9-mkj"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="0hT-0e-CRb">
+                    <rect key="frame" x="110" y="10" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="2zt-if-dt5"/>
+                        <constraint firstAttribute="width" constant="30" id="IWo-ak-Cxr"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="Df6-sW-mI6">
+                    <rect key="frame" x="5" y="10" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="i05-C9-uI3"/>
+                        <constraint firstAttribute="height" constant="30" id="wie-yJ-KZs"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="i9B-vN-KBP">
+                    <rect key="frame" x="145" y="10" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="MTW-a5-PvV"/>
+                        <constraint firstAttribute="width" constant="30" id="k2g-CW-0IZ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="1cT-NY-yO6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="5D7-aI-K35"/>
+                <constraint firstItem="1cT-NY-yO6" firstAttribute="leading" secondItem="yHX-eD-mk5" secondAttribute="trailing" constant="5" id="BxJ-jo-uhe"/>
+                <constraint firstAttribute="bottom" secondItem="Df6-sW-mI6" secondAttribute="bottom" constant="5" id="GPM-HM-dGI"/>
+                <constraint firstItem="yHX-eD-mk5" firstAttribute="leading" secondItem="Df6-sW-mI6" secondAttribute="trailing" constant="5" id="JGB-lW-RFi"/>
+                <constraint firstAttribute="bottom" secondItem="0hT-0e-CRb" secondAttribute="bottom" constant="10" id="N2r-Dp-gMg"/>
+                <constraint firstItem="0hT-0e-CRb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="On8-tf-79s"/>
+                <constraint firstItem="Df6-sW-mI6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="Ps4-0W-ILY"/>
+                <constraint firstAttribute="bottom" secondItem="yHX-eD-mk5" secondAttribute="bottom" constant="10" id="b9A-0k-ygO"/>
+                <constraint firstItem="Df6-sW-mI6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="bQz-4q-xwV"/>
+                <constraint firstItem="0hT-0e-CRb" firstAttribute="leading" secondItem="1cT-NY-yO6" secondAttribute="trailing" constant="5" id="c4q-a1-Bwi"/>
+                <constraint firstAttribute="bottom" secondItem="Df6-sW-mI6" secondAttribute="bottom" constant="10" id="fSJ-Mj-vHg"/>
+                <constraint firstItem="i9B-vN-KBP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="jDW-aj-OXi"/>
+                <constraint firstItem="Df6-sW-mI6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="lcN-iq-d0g"/>
+                <constraint firstAttribute="bottom" secondItem="1cT-NY-yO6" secondAttribute="bottom" constant="10" id="qEH-dP-tf6"/>
+                <constraint firstItem="yHX-eD-mk5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="qLX-Aw-HWf"/>
+                <constraint firstAttribute="bottom" secondItem="i9B-vN-KBP" secondAttribute="bottom" constant="10" id="rhY-2Y-QQO"/>
+                <constraint firstItem="i9B-vN-KBP" firstAttribute="leading" secondItem="0hT-0e-CRb" secondAttribute="trailing" constant="5" id="u3t-Vm-gYJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="GPM-HM-dGI"/>
+                    <exclude reference="lcN-iq-d0g"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="113" y="75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star" width="20" height="20"/>
+    </resources>
+</document>
