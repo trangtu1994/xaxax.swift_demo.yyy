@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB7EDB01DABD85F00A6E11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7EDAF1DABD85F00A6E11B /* AppDelegate.swift */; };
+		CEB7EDB21DABD85F00A6E11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7EDB11DABD85F00A6E11B /* ViewController.swift */; };
+		CEB7EDB51DABD85F00A6E11B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7EDB31DABD85F00A6E11B /* Main.storyboard */; };
+		CEB7EDB81DABD85F00A6E11B /* MyPayPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEB7EDB61DABD85F00A6E11B /* MyPayPal.xcdatamodeld */; };
+		CEB7EDBA1DABD85F00A6E11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB7EDB91DABD85F00A6E11B /* Assets.xcassets */; };
+		CEB7EDBD1DABD85F00A6E11B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7EDBB1DABD85F00A6E11B /* LaunchScreen.storyboard */; };
+		F709497468CBA09AA4886102 /* Pods_MyPayPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7532AC49C43647D572DF33D /* Pods_MyPayPal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		228BEE52160F439F723E02AA /* Pods-MyPayPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPayPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPayPal/Pods-MyPayPal.release.xcconfig"; sourceTree = "<group>"; };
+		90D1DC32B4F1BE20A8E2AD58 /* Pods-MyPayPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPayPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPayPal/Pods-MyPayPal.debug.xcconfig"; sourceTree = "<group>"; };
+		C7532AC49C43647D572DF33D /* Pods_MyPayPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPayPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB7EDAC1DABD85F00A6E11B /* MyPayPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPayPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB7EDAF1DABD85F00A6E11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEB7EDB11DABD85F00A6E11B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB7EDB41DABD85F00A6E11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB7EDB71DABD85F00A6E11B /* MyPayPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyPayPal.xcdatamodel; sourceTree = "<group>"; };
+		CEB7EDB91DABD85F00A6E11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB7EDBC1DABD85F00A6E11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB7EDBE1DABD85F00A6E11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB7EDC61DABDD4500A6E11B /* MyPayPal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPayPal-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB7EDA91DABD85F00A6E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F709497468CBA09AA4886102 /* Pods_MyPayPal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5D3FB8755686E3D9AB335C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90D1DC32B4F1BE20A8E2AD58 /* Pods-MyPayPal.debug.xcconfig */,
+				228BEE52160F439F723E02AA /* Pods-MyPayPal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		786E86CB39414A407170E499 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7532AC49C43647D572DF33D /* Pods_MyPayPal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB7EDA31DABD85F00A6E11B = {
+			isa = PBXGroup;
+			children = (
+				CEB7EDAE1DABD85F00A6E11B /* MyPayPal */,
+				CEB7EDAD1DABD85F00A6E11B /* Products */,
+				4A5D3FB8755686E3D9AB335C /* Pods */,
+				786E86CB39414A407170E499 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB7EDAD1DABD85F00A6E11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7EDAC1DABD85F00A6E11B /* MyPayPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB7EDAE1DABD85F00A6E11B /* MyPayPal */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7EDAF1DABD85F00A6E11B /* AppDelegate.swift */,
+				CEB7EDB11DABD85F00A6E11B /* ViewController.swift */,
+				CEB7EDB31DABD85F00A6E11B /* Main.storyboard */,
+				CEB7EDB91DABD85F00A6E11B /* Assets.xcassets */,
+				CEB7EDBB1DABD85F00A6E11B /* LaunchScreen.storyboard */,
+				CEB7EDBE1DABD85F00A6E11B /* Info.plist */,
+				CEB7EDB61DABD85F00A6E11B /* MyPayPal.xcdatamodeld */,
+				CEB7EDC61DABDD4500A6E11B /* MyPayPal-Bridging-Header.h */,
+			);
+			path = MyPayPal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB7EDAB1DABD85F00A6E11B /* MyPayPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB7EDC11DABD85F00A6E11B /* Build configuration list for PBXNativeTarget "MyPayPal" */;
+			buildPhases = (
+				467E9091B8EBE7318368884F /* [CP] Check Pods Manifest.lock */,
+				CEB7EDA81DABD85F00A6E11B /* Sources */,
+				CEB7EDA91DABD85F00A6E11B /* Frameworks */,
+				CEB7EDAA1DABD85F00A6E11B /* Resources */,
+				917E570C5DB25E5F55D62CD2 /* [CP] Embed Pods Frameworks */,
+				96A7AA37A5E1A5D4E2BB5CCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPayPal;
+			productName = MyPayPal;
+			productReference = CEB7EDAC1DABD85F00A6E11B /* MyPayPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB7EDA41DABD85F00A6E11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TrangTu;
+				TargetAttributes = {
+					CEB7EDAB1DABD85F00A6E11B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEB7EDA71DABD85F00A6E11B /* Build configuration list for PBXProject "MyPayPal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB7EDA31DABD85F00A6E11B;
+			productRefGroup = CEB7EDAD1DABD85F00A6E11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB7EDAB1DABD85F00A6E11B /* MyPayPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB7EDAA1DABD85F00A6E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7EDBD1DABD85F00A6E11B /* LaunchScreen.storyboard in Resources */,
+				CEB7EDBA1DABD85F00A6E11B /* Assets.xcassets in Resources */,
+				CEB7EDB51DABD85F00A6E11B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		467E9091B8EBE7318368884F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		917E570C5DB25E5F55D62CD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPayPal/Pods-MyPayPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A7AA37A5E1A5D4E2BB5CCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPayPal/Pods-MyPayPal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB7EDA81DABD85F00A6E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7EDB21DABD85F00A6E11B /* ViewController.swift in Sources */,
+				CEB7EDB81DABD85F00A6E11B /* MyPayPal.xcdatamodeld in Sources */,
+				CEB7EDB01DABD85F00A6E11B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEB7EDB31DABD85F00A6E11B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB7EDB41DABD85F00A6E11B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB7EDBB1DABD85F00A6E11B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB7EDBC1DABD85F00A6E11B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB7EDBF1DABD85F00A6E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB7EDC01DABD85F00A6E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB7EDC21DABD85F00A6E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D1DC32B4F1BE20A8E2AD58 /* Pods-MyPayPal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hien Tran (876F87X7X4)";
+				INFOPLIST_FILE = MyPayPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobstudio.mobihealth.patient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4a44d974-6b71-43c0-8986-d24913a73f87";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyPayPal/MyPayPal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB7EDC31DABD85F00A6E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228BEE52160F439F723E02AA /* Pods-MyPayPal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hien Tran (876F87X7X4)";
+				INFOPLIST_FILE = MyPayPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobstudio.mobihealth.patient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4a44d974-6b71-43c0-8986-d24913a73f87";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyPayPal/MyPayPal-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB7EDA71DABD85F00A6E11B /* Build configuration list for PBXProject "MyPayPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB7EDBF1DABD85F00A6E11B /* Debug */,
+				CEB7EDC01DABD85F00A6E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB7EDC11DABD85F00A6E11B /* Build configuration list for PBXNativeTarget "MyPayPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB7EDC21DABD85F00A6E11B /* Debug */,
+				CEB7EDC31DABD85F00A6E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEB7EDB61DABD85F00A6E11B /* MyPayPal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEB7EDB71DABD85F00A6E11B /* MyPayPal.xcdatamodel */,
+			);
+			currentVersion = CEB7EDB71DABD85F00A6E11B /* MyPayPal.xcdatamodel */;
+			path = MyPayPal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEB7EDA41DABD85F00A6E11B /* Project object */;
+}
